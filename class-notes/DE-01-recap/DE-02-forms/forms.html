@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>FORMS</h1>
+    <form action="result.html">
+        <!--TEXT-->
+        <div>
+            <!--label for and input id should be same.-->
+            <label for="name">NAME:</label>
+            <br>
+            <input id="name" type="text" name="name"
+            value="" placeholder="please, write your name" required>
+        </div>
+        <br><br>
+        <div>
+            <label for="surname">SURNAME</label>
+            <br>
+            <input id="surname" type="text" name="surname" value="" placeholder="write your surname" required>
+        </div>
+        <br><br>
+        <div>
+            <label for="password">Password:</label>
+            <br>
+            <input id="password" type="password" placeholder="write your password"
+            value="" minlength="4" maxlength="8">
+        </div>
+        <br><br>
+        <div>
+            <label>Gender:</label>
+            <br>
+            
+            <label for="male">Male</label>
+            <input id="male" type="radio" name="gender" value="male" checked>
+            
+            <label for="female">Female</label>
+            <input id="female" type="radio" name="gender" value="female">
+            
+            <label for="none">None</label>
+            <input id="none" type="radio" name="gender" value="none">
+        </div>
+        <br><br>
+        <div>
+            <label>Your favourite cars:</label>
+            <br>
+            <label for="bmw">BMW</label>
+            <input id="bmw" type="checkbox" name="car1" value="bmw">
+
+            <label for="merco">Mercedes</label>
+            <input id="merco" type="checkbox" name="car2" value="mercedes">
+
+            <label for="audi">Audi</label>
+            <input id="audi" type="checkbox" name="car3" value="audi">
+        </div>
+        <br><br>
+        <div>
+            <label for="age">Age:</label>
+            <br>
+            <input id="age" type="number" name="age" value="0" min="0"
+            max="100" step="5">
+        </div>
+
+    </form>
+</body>
+</html>
