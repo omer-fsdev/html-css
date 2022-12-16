@@ -1,0 +1,39 @@
+table {
+  border: 1px solid white;
+  background-color: rgb(233, 233, 241);
+  width: 75%;
+  height: 250px;
+  margin-top: 88px;
+  margin-left: 5%;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 550;
+}
+
+th {
+  background-color: rgb(98, 120, 218);
+  color: white;
+}
+
+td:hover {
+  background-color: coral;
+  color: rgb(0, 255, 0);
+  font-style: italic;
+}
+
+.dark {
+  background-color: rgba(182, 182, 226, 0.377);
+}
+
+td {
+  width: 10%;
+}
+
+.column1 {
+  width: 20%;
+  text-align: left;
+}
+
+.column2 {
+  width: 5%;
+}
